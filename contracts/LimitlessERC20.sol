@@ -37,10 +37,10 @@ contract ERC20Interface {
 }
 
 // ----------------------------------------------------------------------------
-// Ordina Token Contract
+// Limitless ERC20 Token Contract
 // ----------------------------------------------------------------------------
 
-contract OrdinaToken is ERC20Interface, SafeMath {
+contract LimitlessToken is ERC20Interface, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
